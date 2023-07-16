@@ -26,8 +26,8 @@ def retrieve(query):
         file_path = docs[i].metadata["source"]
         file_name = os.path.basename(file_path)
         basis_file_list.append(file_name)
-    print(basis_file_list)
-    return basis_file_list
+    # print(str(basis_file_list)[1:-1])
+    return str(basis_file_list)[1:-1]
 
 
 if __name__ == "__main__":
