@@ -9,8 +9,6 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 
-os.environ["OPENAI_API_KEY"] = "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"
-
 def create_embd_db(parent_regex: str):
     documents_pdf = []
 
