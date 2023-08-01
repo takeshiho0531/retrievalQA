@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "retrievalqa"
+version = "0.1.0"
+description = ""
+authors = ["TFox, takeshiho0531"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.234"
+openai = "^0.27.8"
+faiss-cpu = "^1.7.4"
+tiktoken = "^0.4.0"
+pdfminer-six = "^20221105"
+isort = "^5.12.0"
+black = "^23.7.0"
+mypy = "^1.4.1"
+gradio = "^3.36.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
